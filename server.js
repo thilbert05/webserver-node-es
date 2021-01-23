@@ -5,7 +5,6 @@ const hbs = require('hbs');
 require('./hbs/helpers/helpers');
 
 const port = process.env.PORT || 8080;
-const host = process.env.HOST || 'localhost';
 
 const app = express();
 
